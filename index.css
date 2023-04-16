@@ -31,6 +31,10 @@ body {
 .col{
     margin: 10px;
 }
+#his{
+    width: 300px; /* 容器宽度 */
+    word-wrap: break-word; /* 超出容器宽度时自动换行 */
+}
 
 .dice {
     position: relative;

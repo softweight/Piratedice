@@ -21,18 +21,18 @@ function rollDice() {
     // console.log("start!")
     var diceOne;
     const random = Math.random();
-    if (random < 0.1806) {
-        diceOne = 3;
-    } else if (random < 0.3473) {
+    if (random < 0.1741930477963997) {
+        diceOne = 1;
+    } else if (random < 0.3446927374301676) {
         diceOne = 2;
-    } else if (random < 0.5169) {
-        diceOne = 5;
-    } else if (random < 0.6768) {
+    } else if (random < 0.5182184978274363) {
+        diceOne = 3;
+    } else if (random < 0.690068280571073) {
         diceOne = 4;
-    } else if (random < 0.8159) {
-        diceOne = 6;
+    } else if (random < 0.8594196151458721) {
+        diceOne = 5;
     } else {
-        diceOne= 1;
+        diceOne= 6;
     }
     history.push(diceOne);
     console.log(diceOne);
